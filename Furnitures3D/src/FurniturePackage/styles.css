@@ -1,0 +1,40 @@
+.root {
+    -fx-background-image: url('/resources/4K.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+.button {
+    -fx-background-color: #3498db; 
+    -fx-text-fill: #ecf0f1; 
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 10 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+    -fx-min-width: 120px; 
+    -fx-min-height: 40px; 
+    -fx-max-width: 160px; 
+    -fx-max-height: 40px; 
+}
+
+#backButton{
+    -fx-background-color: #7a34db; 
+    -fx-text-fill: #ecf0f1;
+}
+
+
+.label {
+    -fx-text-fill: #ecf0f1; 
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+    -fx-padding:  60;
+
+}
+
+.scene {
+    -fx-background-color: #34495e; 
+}
+

@@ -1,0 +1,93 @@
+.root {
+    -fx-background-image: url('/resources/rm3.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+
+#dashboard-title {
+    -fx-font-size: 20pt;
+    -fx-text-fill: #f4f8f8;
+    -fx-font-weight: bold;
+}
+.box-button {
+    -fx-background-radius: 15; 
+    -fx-border-radius: 15; 
+    -fx-padding: 10 20; 
+    -fx-font-size: 14px; 
+    -fx-background-color: #d7be1e; 
+    -fx-text-fill: #181717; 
+    -fx-font-weight: bold;
+}
+
+.box-button:hover {
+    -fx-background-color: #a4153b; 
+    -fx-text-fill: #ffffff;
+}
+.image-container {
+    -fx-padding: 2; 
+    -fx-border-color: #c02626;
+    -fx-border-width: 2; 
+    -fx-border-radius: 50%; 
+    -fx-background-radius: 50%; 
+}
+.settings-button {
+    -fx-font-size: 25px;
+}
+
+.settings-button:hover {
+    -fx-background-color: lightgray; 
+}
+.logout-button {
+    -fx-font-size: 24px; 
+}
+
+.logout-button:hover {
+    -fx-background-color: lightgray; 
+}
+
+.button-object {
+    -fx-background-image: url('resources/25.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+.button-furniture {
+    -fx-background-image: url('resources/v.jpg');
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+.nav-button {
+    -fx-background-color: #0078D7;
+    -fx-text-fill: white;
+    -fx-padding: 10px 20px;
+    -fx-font-weight: bold;
+}
+
+.nav-button:hover {
+    -fx-background-color: #0053A6;
+}
+
+#vision-title, #mission-title, #contact-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #0000f8;
+}
+
+#vision-text, #mission-text, #contact-info {
+    -fx-font-size: 18px;
+    -fx-text-fill: #fff;
+    -fx-padding: 10 0;
+    -fx-text-alignment: center;
+    -fx-alignment: center;
+}
+#about-title{
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #efeff3;
+    -fx-text-alignment: center;
+}
+
